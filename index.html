@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" >
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="caja">
+        <h1>Todo List</h1>
+        <hr>
+        <div class="cajaInput">
+            <label>Nueva tarea:</label>
+            <input id="nuevaTarea">
+            <button id="agregarTarea">Agregar</button>
+        </div>
+
+        <div class="container">
+            <div>
+                <p>total:<span id="total">0</span></p>
+                <p>Realizadas:<span id="realizadas"></span></p>
+                <p>No realizadas:<span id="norealizadas"></span></p>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarea</th>
+                            <th>Realizar</th>
+                            <th>Borrar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="elementos"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/f5bdbb41e0.js" crossorigin="anonymous"></script>
+</body>
+</html>

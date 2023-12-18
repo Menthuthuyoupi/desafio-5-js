@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding-bottom: 10px;
+}
+
+.cajaInput{
+    padding:20px 10px;
+}
+
+.caja{
+    background-color: #CBCBCB;
+    width: 60%;
+    height: 50vh;
+    margin:0 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+}
+
+.icono{
+    color: red;
+    font-size: 150%;
+    border-width:0;
+}
+
+.centrarbtn{
+    text-align: center;
+}
+
